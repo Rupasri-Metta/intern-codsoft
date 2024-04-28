@@ -1,0 +1,105 @@
+#nav {
+    margin-left: 200px;
+}
+#nav:hover{
+    color:gray;
+}
+
+#web {
+    height: 1550px;
+    width: 800px;
+    border: 2px solid green;
+    border-top: 15px solid green;
+    margin: auto; 
+    display: block; 
+}
+
+#color{
+    background-color: blueviolet;
+}
+
+#logo img {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+#nav li {
+    float: left;
+    list-style: none;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+#section {
+    background: url("https://media.istockphoto.com/id/1058255610/photo/indian-woman-with-her-beloved-pet.jpg?s=612x612&w=0&k=20&c=g3cAy42paAxRV2xR02gOq3fJqe7Vm3mYrDFPJ4DkylE=")no-repeat center/cover;
+    margin-top:100px;
+    height: 500px; 
+    width: 100%;
+}
+#section p{
+   padding-top: 170px;
+   padding-left:480px;
+   color:white;
+   font-size: 45px;
+
+}
+#content{
+    display:flex;
+}
+.box{
+    margin:20px;
+    border:2px solid green;
+    border-radius:5px;
+    height:320px;
+    margin-top:90px;
+    background-color: rgb(244, 254, 228);
+    box-shadow: 0px 6px 10px rgba(90, 26, 26, 0.1);
+}
+
+#aside1{
+   margin-top:280px;
+   float:left;
+   width:50%;
+   margin-left:20px;
+   text-align: justify;
+}
+.aside-2{
+    float:left;
+    width:50px;
+}
+.aside-2 img{
+    width:350px;
+    height:220px;
+    margin-top:300px;
+    margin-left:20px;
+
+}
+
+.foot{
+    margin-top:550px;
+    background: url("https://media.consumeraffairs.com/files/cache/news/dog-sidewalk-AdobeStock_84803462_large.webp")no-repeat center/cover;
+    height:400px;
+    width:800px;
+}
+#footer{
+   height:398px;
+   margin-left:400px;
+   background-color:rgba(255, 255, 255, 0.658);
+   display:left;
+   
+}
+#footer h3{
+    display:left;
+    text-align: center;
+}
+#footer h5{
+    text-align: center;
+    color:rgb(153, 0, 255);
+}
+#footer img{
+   margin:auto;
+   display:block;
+   height:100px;
+   width:100px;
+}
